@@ -57,12 +57,12 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Nam.`,
+  name: "I'm Nam.",
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an <strong className="text-stone-100">Android/Back-end Developer. </strong>My will is to
-        build a modern, mobile-first website and Android application.
+        I'm an <strong className="text-stone-100">Android/Back-end Developer. </strong>
+        My will is to build a modern, mobile-first website and Android application.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me playing{" "}
@@ -73,12 +73,12 @@ export const heroData: Hero = {
     </>
   ),
   actions: [
-    {
-      href: "/assets/resume.pdf",
-      text: "Resume",
-      primary: true,
-      Icon: ArrowDownTrayIcon,
-    },
+    // {
+    //   href: "../assets/resume.pdf",
+    //   text: "Resume",
+    //   primary: true,
+    //   Icon: ArrowDownTrayIcon,
+    // },
     {
       href: `#${SectionId.Contact}`,
       text: "Contact",
