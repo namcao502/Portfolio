@@ -74,7 +74,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "../assets/resume.pdf",
+      href: "https://drive.google.com/file/d/1j5hOc-3iY9sCnQAbbIJMrhaK9VPehs8b/view?usp=sharing",
       text: "Resume",
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -252,7 +252,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: "Vo Van Hoi - Developer at Miagi Solution",
-      text: "During the internship, students have a good attitude and complete assigned work. In the future, he needs to improve his knowledge to develop further.",
+      text: "During the internship, he has a good attitude and complete all assigned work. In the future, he needs to improve his knowledge to develop further.",
       image:
         "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg",
     },
