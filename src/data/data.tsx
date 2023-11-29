@@ -13,6 +13,7 @@ import heroImage from "../images/header-background.jpg";
 import porfolioImage1 from "../images/portfolio/portfolio-1.jpg";
 import porfolioImage2 from "../images/portfolio/portfolio-2.png";
 import porfolioImage3 from "../images/portfolio/portfolio-3.jpg";
+import porfolioImage4 from "../images/portfolio/portfolio-4.jpg";
 import profilepic from "../images/profilepic.jpg";
 import testimonialImage from "../images/testimonial.jpg";
 import {
@@ -74,7 +75,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: "https://drive.google.com/file/d/1j5hOc-3iY9sCnQAbbIJMrhaK9VPehs8b/view?usp=sharing",
+      href: "https://drive.google.com/drive/folders/1sQLnQNXnonunPi3UYdGJh--ypsGALxhx?usp=sharing",
       text: "Resume",
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -195,10 +196,16 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: "TODO",
-    description: "An Android application about notes.",
-    url: "/",
+    title: "SHOP",
+    description: "A simple commerce website with basic features",
+    url: "https://shop-nam502.vercel.app/",
     image: porfolioImage3,
+  },
+  {
+    title: "WMUSIC",
+    description: "A simple music website",
+    url: "https://shop-nam502.vercel.app/",
+    image: porfolioImage4,
   },
 ];
 
